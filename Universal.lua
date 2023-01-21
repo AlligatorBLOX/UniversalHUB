@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("RSPR Universal", "Ocean")
+local Window = Library.CreateLib("YouTube Example Hub", "Ocean")
     -- MAIN
     local Main = Window:NewTab("Main")
     local MainSection = Main:NewSection("Main")
@@ -52,3 +52,6 @@ local Window = Library.CreateLib("RSPR Universal", "Ocean")
 
     OtherSection:NewButton("Bypassed Fly", "bird mode", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/BypassedFly.lua"))() 
+
+        Fly(true)
+    end)
